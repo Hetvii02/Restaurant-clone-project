@@ -1,0 +1,198 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/background.jpg);
+;background-position: center; background-repeat: no-repeat;background-size:cover;
+border:#ddd
+}
+
+footer {
+    background-color: #3a290f;
+    color: white;
+    text-align: center;
+    }
+
+/* Hero Section (Home Page) */
+.hero {
+    background-image: url('restaurant-bg.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+   
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.rname{
+    transition: transform 0.3s ease;
+}
+.rname:hover{
+    transform: scale(1.10);
+    
+}
+
+header {
+    background-color: #3a290f;
+    padding: 10px;
+}
+
+
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.home{
+    transition: transform 0.3s ease;
+}
+.home:hover{
+    transform: scale(1.10S);
+}
+
+
+
+/* Menu Page */
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.h1{
+    transition: transform 0.3s  ease
+}
+.h1:hover{
+    transform: scale(1.10)
+}
+
+.dish {
+    background-color: rgb(249, 246, 246);
+     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    ;
+    
+}
+
+.dish:hover {
+    transform: scale(1.05);
+}
+
+.dish img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.dish-details {
+    padding: 10px;
+    text-align: center;
+}
+
+.dish-details h3 {
+    margin: 10px 0;
+}
+.dish-details h3{
+    transition: transform 0.3s ease;
+}
+.dish-details h3:hover{
+    transform: scale(1.10);
+    color: #3a290f;
+}
+
+.dish-details p {
+    color: #3a290f;
+    font-size: 18px;
+}
+.dish-details p{
+    transition: transform 0.3s ease;
+}
+.dish-details p{
+    transform: scale(1.10);
+    color: #3a290f;
+}
+
+/* Reservation Page */
+
+.reg{
+    transition: transform 0.3s  ease
+}
+.reg:hover{
+    transform: scale(1.10)
+}
+.reservation-form {
+    background-color: #3a290f;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ddd;
+}
+
+.reservation-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.reservation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0f0404;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservation-form button:hover {
+    background-color: #fff;
+    color: #0f0404;
+    ;
+}
+
+/* Location Page */
+
+.loc{
+    transition: trasform 0.3s;
+}
+.loc:hover{
+    transform: scale(1.10);
+}
+.location {
+    text-align: center;
+    padding: 20px;
+    color: #ddd;
+}
+
+.location iframe {
+    border: none;
+    width: 100%;
+    height: 400px;
+}
